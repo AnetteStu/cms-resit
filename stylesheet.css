@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Quicksand:wght@300;500&family=Raleway&display=swap');
+
+* {
+  color: rgb(157, 157, 157);
+}
+
+body {
+  background-color: rgb(29, 29, 29);
+}
+
+.header {
+  width: 100%;
+  margin-top: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post {
+  width: 50em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgba(160, 160, 160, 0.721);
+  background-color: rgb(45, 45, 45);
+  border-radius: 2em;
+
+  margin: 2em 0;
+  padding: 2em;
+}
+.post_title {
+  color: rgb(209, 209, 209);
+  font-size: 3em;
+  font-family: 'Delicious Handrawn', cursive;
+}
+.post_header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  border-bottom: 3px solid rgb(21, 21, 21);
+  margin-bottom: .5em;
+  
+  font-family: 'Raleway', sans-serif;
+}
+
+.post_body {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Quicksand', sans-serif;
+}
